@@ -34,7 +34,6 @@ enum combos {
     WY_TAB,
     DH_CAPS,
     HCOMA_MINS,
-    WSPC_VIM,
     FU_QUOTE,
     PL_DQUOTE,
     CCOM_LARR,
@@ -47,7 +46,6 @@ enum combos {
 const uint16_t PROGMEM wy_combo[]     = {KC_W, KC_Y, COMBO_END};
 const uint16_t PROGMEM dh_combo[]     = {KC_D, KC_H, COMBO_END};
 const uint16_t PROGMEM hcomma_combo[] = {KC_H, KC_COMM, COMBO_END};
-const uint16_t PROGMEM wspc_combo[]   = {KC_W, KC_SPC, COMBO_END};
 const uint16_t PROGMEM fu_combo[]     = {KC_F, KC_U, COMBO_END};
 const uint16_t PROGMEM pl_combo[]     = {KC_P, KC_L, COMBO_END};
 const uint16_t PROGMEM ccom_combo[]   = {KC_C, KC_COMM, COMBO_END};
@@ -62,7 +60,6 @@ combo_t key_combos[] = {
     [WY_TAB] = COMBO(wy_combo, KC_TAB),
     [DH_CAPS] = COMBO(dh_combo, CW_TOGG),
     [HCOMA_MINS] = COMBO(hcomma_combo, KC_MINS),
-    [WSPC_VIM] = COMBO(wspc_combo, VIMS),
     [FU_QUOTE] = COMBO(fu_combo, KC_QUOT),
     [PL_DQUOTE] = COMBO(pl_combo, S(KC_QUOT)),
     [CCOM_LARR] = COMBO(ccom_combo, LARR),

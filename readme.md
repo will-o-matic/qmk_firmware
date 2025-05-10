@@ -34,3 +34,12 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 ## Official Website
 
 [qmk.fm](https://qmk.fm) is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
+
+## Keymap Drawer
+From the QMK MinGW terminal:
+qmk c2json -km stock -kb gggw/crosses/3x5/rev2 -o willKeyboard.json
+
+From terminal in VS Code
+- venv\Scripts\activate
+- keymap parse -q willKeyboard.json -o willKeymap.yaml --layer-names Base Num Nav Media Func Mous
+- keymap draw willKeymap.yaml -j keyboards\gggw\crosses\3x5\rev2\keyboard.json -l LAYOUT_3x5  -o willKeyboard.svg      

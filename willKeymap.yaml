@@ -1,0 +1,266 @@
+layout: {qmk_keyboard: gggw/crosses/3x5/rev2, layout_name: LAYOUT_3x5}
+layers:
+  Base:
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - {t: A, h: LGUI}
+  - {t: R, h: LALT}
+  - {t: S, h: LCTL}
+  - {t: T, h: LSFT}
+  - G
+  - M
+  - {t: N, h: RSFT}
+  - {t: E, h: RCTL}
+  - {t: I, h: RALT}
+  - {t: O, h: RGUI}
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - ','
+  - .
+  - {t: /, h: Media}
+  - Mous
+  - {t: ESC, h: Nav}
+  - SPC
+  - {t: ENT, h: Num}
+  - BSPC
+  - {t: DEL, h: Func}
+  Num:
+  - Sft+8
+  - '7'
+  - '8'
+  - '9'
+  - /
+  - \
+  - Sft+9
+  - Sft+0
+  - Sft+\
+  - {t: ▽, type: trans}
+  - '-'
+  - '4'
+  - '5'
+  - {t: '6', h: LSFT}
+  - Sft+=
+  - Sft+5
+  - {t: '[', h: RSFT}
+  - {t: ']', h: RCTL}
+  - Sft+;
+  - ;
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - '='
+  - '['
+  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Nav:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LGUI
+  - LALT
+  - LCTL
+  - LSFT
+  - ''
+  - ''
+  - LEFT
+  - DOWN
+  - UP
+  - RGHT
+  - ''
+  - ''
+  - COPY
+  - PSTE
+  - ''
+  - ''
+  - HOME
+  - END
+  - PGDN
+  - PGUP
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  Media:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - MPRV
+  - VOLD
+  - MPLY
+  - VOLU
+  - MNXT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  Func:
+  - F11
+  - F12
+  - F13
+  - F14
+  - F15
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - {t: ▽, type: trans}
+  - RSFT
+  - RCTL
+  - RALT
+  - RGUI
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  Mous:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - EE CLR
+  - MSE INC
+  - MSE DEC
+  - ''
+  - ''
+  - ''
+  - MS BTN3
+  - MS BTN2
+  - MS BTN1
+  - ''
+  - ''
+  - RSFT
+  - RCTL
+  - RALT
+  - RGUI
+  - ''
+  - ''
+  - ''
+  - DRAG SCROLL
+  - ''
+  - ''
+  - ''
+  - ''
+  - MSE TOGG
+  - DB TOGG
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+combos:
+  - tk: [W, Y]
+    key: Tab
+    layers: [Base]
+    align: top
+    offset: 1
+  - tk: [D, H]
+    key: Caps
+    layers: [Base]
+    align: bottom
+    offset: 0
+  - tk: [H, ',']
+    key: '-'
+    layers: [Base]
+  - tk: [F, U]
+    key: ''''
+    layers: [Base]
+    align: top
+    offset: .36
+  - tk: [P, L]
+    key: '"'
+    layers: [Base]
+    align: top
+  - tk: [C, ',']
+    key: '->'
+    layers: [Base]
+  - tk: [X, .]
+    key: '=>'
+    layers: [Base]
+    align: bottom
+    offset: .5
+  - tk: [G, M]
+    key: '|>'
+    layers: [Base]
+  - tk: [',', .]
+    key: _
+    layers: [Base]
+  - tk: [Z, .]
+    key: '<-'
+    layers: [Base]
+    align: bottom
+    offset: .7

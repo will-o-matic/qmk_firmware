@@ -1,0 +1,31 @@
+combos:
+  - tk: [W, Y]
+    key: Tab
+    layers: [Base]
+  - tk: [D, H]
+    key: Caps Lock
+    layers: [Base]
+  - tk: [H, ',']
+    key: '-'
+    layers: [Base]
+  - tk: [F, U]
+    key: ''''
+    layers: [Base]
+  - tk: [P, L]
+    key: '"'
+    layers: [Base]
+  - tk: [C, ',']
+    key: '->'
+    layers: [Base]
+  - tk: [X, .]
+    key: '=>'
+    layers: [Base]
+  - tk: [G, M]
+    key: '|>'
+    layers: [Base]
+  - tk: [',', .]
+    key: _
+    layers: [Base]
+  - tk: [Z, .]
+    key: '<-'
+    layers: [Base]
